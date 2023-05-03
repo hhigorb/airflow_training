@@ -36,11 +36,11 @@ default_args = {'owner': dag_owner,
 
 with DAG(dag_id='primeira_dag',
          default_args=default_args,
-         description='Minha primeira DAG',
+         description='airflow_test_dag',
          start_date=datetime(year=2023, month=4, day=30),
          schedule_interval='0 0 * * *',
          catchup=False,
-         tags=['first_dag']) as dag:
+         tags=['airflow_dag']) as dag:
 
     task1 = BashOperator(
         task_id='task1',

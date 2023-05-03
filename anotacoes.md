@@ -71,3 +71,7 @@
 ## Como instalar o Airflow locamente
 
 Para instalar o Airflow localmente é utilizado um docker-compose.yaml que contém a criação de todas as imagens e containers necessários para iniciar o Airflow. Siga as instruções da [documentação](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html) oficial do Airflow
+
+## Exemplos de Operators do Airflow
+
+![Operators](images/image18.png "Operators")
