@@ -2,6 +2,11 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 
+"""
+É possível definir o trigger_rule para a DAG (assim contemplando todas as tasks) ou em uma task específica.
+"""
+
+
 doc_md = """
 Documentação da DAG
 """
@@ -14,7 +19,7 @@ default_args = {'owner': dag_owner,
                 'retry_delay': timedelta(minutes=5)
                 }
 
-with DAG(dag_id='segunda_dag',
+with DAG(dag_id='trigger_rule_dag1',
          default_args=default_args,
          description='airflow_test_dag',
          doc_md=doc_md,
@@ -38,7 +43,8 @@ with DAG(dag_id='segunda_dag',
     task3 = BashOperator(
         task_id='task3',
         bash_command="sleep 5",
-        dag=dag
+        dag=dag,
+        trigger_rule='one_failed'
     )
 
-    task1 >> [task2, task3]
+    [task1, task2] >> task3

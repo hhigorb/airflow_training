@@ -75,3 +75,7 @@ Para instalar o Airflow localmente √© utilizado um docker-compose.yaml que cont√
 ## Exemplos de Operators do Airflow
 
 ![Operators](images/image18.png "Operators")
+
+## Trigger Rule
+
+![Trigger Rule](images/image19.png "Trigger Rule")

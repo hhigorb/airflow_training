@@ -2,6 +2,10 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 
+doc_md = """
+Documentação da DAG
+"""
+
 dag_owner = 'data-engineer-team'
 
 default_args = {'owner': dag_owner,
@@ -13,6 +17,7 @@ default_args = {'owner': dag_owner,
 with DAG(dag_id='terceira_dag',
          default_args=default_args,
          description='airflow_test_dag',
+         doc_md=doc_md,
          start_date=datetime(year=2023, month=4, day=30),
          schedule_interval='0 0 * * *',
          catchup=False,

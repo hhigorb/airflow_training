@@ -26,6 +26,11 @@ start_date: Data de início da DAG. Todas as tarefas anteriores à data de
 início serão marcadas como "concluídas".
 
 """
+
+doc_md = """
+Documentação da DAG
+"""
+
 dag_owner = 'data-engineer-team'
 
 default_args = {'owner': dag_owner,
@@ -37,6 +42,7 @@ default_args = {'owner': dag_owner,
 with DAG(dag_id='primeira_dag',
          default_args=default_args,
          description='airflow_test_dag',
+         doc_md=doc_md,
          start_date=datetime(year=2023, month=4, day=30),
          schedule_interval='0 0 * * *',
          catchup=False,
