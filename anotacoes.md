@@ -79,3 +79,31 @@ Para instalar o Airflow localmente é utilizado um docker-compose.yaml que cont�
 ## Trigger Rule
 
 ![Trigger Rule](images/image19.png "Trigger Rule")
+
+## Parâmetros de uma DAG
+
+![Parâmetros de uma DAG](images/image20.png "Parâmetros de uma DAG")
+
+---
+
+![Parâmetros de uma DAG](images/image21.png "Parâmetros de uma DAG")
+
+---
+
+![Parâmetros de uma DAG](images/image22.png "Parâmetros de uma DAG")
+
+---
+
+![Parâmetros de uma DAG](images/image23.png "Parâmetros de uma DAG")
+
+---
+
+![Parâmetros de uma DAG](images/image24.png "Parâmetros de uma DAG")
+
+---
+
+![Parâmetros de uma DAG](images/image25.png "Parâmetros de uma DAG")
+
+---
+
+![Parâmetros de uma DAG](images/image26.png "Parâmetros de uma DAG")
