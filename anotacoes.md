@@ -107,3 +107,17 @@ Para instalar o Airflow localmente é utilizado um docker-compose.yaml que cont�
 ---
 
 ![Parâmetros de uma DAG](images/image26.png "Parâmetros de uma DAG")
+
+---
+
+## XCOM
+
+![Xcom](images/image27.png "Xcom")
+
+## Envio de e-mails
+
+![Emails](images/image28.png "Emails")
+
+---
+
+![Emails](images/image29.png "Emails")
