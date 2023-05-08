@@ -1,1 +1,5 @@
 apache-airflow
+pandas
+google-cloud-storage
+google.auth
+pyarrow
