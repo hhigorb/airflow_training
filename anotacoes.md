@@ -121,3 +121,19 @@ Para instalar o Airflow localmente é utilizado um docker-compose.yaml que cont�
 ---
 
 ![Emails](images/image29.png "Emails")
+
+## Variáveis no Airflow
+
+![Variaveis](images/image30.png "Variaveis")
+
+---
+
+![Variaveis](images/image31.png "Variaveis")
+
+## Pools
+
+![Pools](images/image32.png "Pools")
+
+---
+
+![Pools](images/image33.png "Pools")
