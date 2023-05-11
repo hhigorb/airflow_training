@@ -137,3 +137,11 @@ Para instalar o Airflow localmente √© utilizado um docker-compose.yaml que cont√
 ---
 
 ![Pools](images/image33.png "Pools")
+
+## Branchs
+
+![Branchs](images/image34.png "Branchs")
+
+## Extras sobre PythonOperator
+
+![PythonOperator](images/image35.png "PythonOperator")
