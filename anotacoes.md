@@ -145,3 +145,19 @@ Para instalar o Airflow localmente √© utilizado um docker-compose.yaml que cont√
 ## Extras sobre PythonOperator
 
 ![PythonOperator](images/image35.png "PythonOperator")
+
+## Datasets
+
+![Datasets](images/image36.png "Datasets")
+
+## Sensors
+
+![Sensors](images/image37.png "Sensors")
+
+---
+
+![Sensors](images/image38.png "Sensors")
+
+---
+
+![Sensors](images/image39.png "Sensors")
