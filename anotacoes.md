@@ -169,3 +169,27 @@ Para instalar o Airflow localmente é utilizado um docker-compose.yaml que cont�
 ## Hooks
 
 ![Hooks](images/image41.png "Hooks")
+
+## Plugins
+
+![Plugins](images/image42.png "Plugins")
+
+---
+
+![Plugins](images/image43.png "Plugins")
+
+## Boas práticas com Airflow
+
+![Boas práticas com Airflow](images/image44.png "Boas práticas com Airflow")
+
+---
+
+![Boas práticas com Airflow](images/image45.png "Boas práticas com Airflow")
+
+---
+
+![Boas práticas com Airflow](images/image46.png "Boas práticas com Airflow")
+
+---
+
+![Boas práticas com Airflow](images/image47.png "Boas práticas com Airflow")
