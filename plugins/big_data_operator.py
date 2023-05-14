@@ -1,4 +1,3 @@
-from typing import Any
 from airflow.models import BaseOperator
 from airflow.utils.decorators import apply_defaults
 import pandas as pd

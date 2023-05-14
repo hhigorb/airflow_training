@@ -1,4 +1,3 @@
-import requests
 from airflow import DAG
 from big_data_operator import BigDataOperator
 from datetime import datetime, timedelta

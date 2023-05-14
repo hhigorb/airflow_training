@@ -4,6 +4,23 @@ from airflow.operators.python_operator import PythonOperator
 from airflow.providers.http.sensors.http import HttpSensor
 from datetime import datetime, timedelta
 
+"""
+Por exemplo, suponha que você tenha um pipeline de processamento de dados
+que  precise esperar até que um arquivo de entrada esteja disponível
+antes de iniciar. Nesse caso, você pode configurar um operador de
+sensor (sensor operator) para monitorar a presença do arquivo de
+entrada em um diretório específico. O sensor ficará em um loop de
+verificação até que o arquivo esteja presente e só então permitirá
+que o pipeline continue com o próximo estágio de processamento.
+
+Existem diferentes tipos de sensores em Airflow, como "FileSensor"
+para monitorar arquivos, "TimeSensor" para aguardar um determinado
+tempo e "HttpSensor" para monitorar a disponibilidade de um serviço
+da web, entre outros. Eles são usados para criar fluxos de trabalho
+mais robustos e tolerantes a falhas, permitindo que os pipelines de
+processamento de dados sejam executados de forma mais eficiente e confiável.
+"""
+
 doc_md = """
 Documentação da DAG
 """
