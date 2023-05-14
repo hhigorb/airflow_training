@@ -5,7 +5,6 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.models import Variable
 from datetime import datetime, timedelta
-from datetime import datetime, timedelta
 from google.cloud import storage
 from google.oauth2.service_account import Credentials
 
