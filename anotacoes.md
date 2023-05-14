@@ -161,3 +161,11 @@ Para instalar o Airflow localmente √© utilizado um docker-compose.yaml que cont√
 ---
 
 ![Sensors](images/image39.png "Sensors")
+
+## Providers
+
+![Providers](images/image40.png "Providers")
+
+## Hooks
+
+![Hooks](images/image41.png "Hooks")
