@@ -9,7 +9,7 @@ from google.cloud import storage
 from google.oauth2.service_account import Credentials
 
 doc_md = """
-Essa DAG é responsável por capturar os dados da API de clima e armazenar no S3.
+Essa DAG é responsável por capturar os dados da API de clima e armazenar no Storage.
 """
 
 dag_owner = 'data-engineer-team'
